@@ -1,0 +1,23 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "author": "pa-y-kunimoto",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "start:sampleServer": "ts-node sampleServer.ts"
+  },
+  "dependencies": {
+    "axios": "1.6.8",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "ts-node": "10.9.2",
+    "typescript": "5.4.3"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "npm": "10.5.1"
+  }
+}
